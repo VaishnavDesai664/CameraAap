@@ -30,7 +30,7 @@ const App = () => {
         console.log('Photo captured:', photo.path);
         setCapturedPhoto(photo.path);
       } catch (error) {
-        console.error('Error capturing image:', error);
+      //  console.error('Error capturing image:', error);
       }
     }
   };
