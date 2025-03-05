@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "19.0.0",
-    "react-native": "0.78.0"
+    "react-native": "0.78.0",
+    "react-native-face-detector": "^1.0.15",
+    "react-native-permissions": "^5.2.5",
+    "react-native-vision-camera": "^4.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
