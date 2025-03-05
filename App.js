@@ -18,7 +18,7 @@ const App = () => {
       requestPermission();
     } else if (hasPermission && backDevice) {
       setCurrentDevice(backDevice);
-    }
+    }   
   }, [hasPermission, backDevice]);
 
   const handleCapture = async () => {
